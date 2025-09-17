@@ -7,7 +7,7 @@
 
 ---
 
-## What this does (pitch for recruiters)
+## What this does
 
 This script showcases **Windows fleet automation** and **PowerShell remoting** skills by:
 - Prompting the user to select a text file containing computer names.
@@ -121,15 +121,6 @@ SRV-APPS02 – Application: PowerShell 7-x64 is installed.
   ```powershell
   $results | Export-Csv -NoTypeInformation -Path .\App_Checker_Results.csv
   ```
-
----
-
-## Why this project is relevant (recruiter framing)
-
-- **Demonstrates real-world IT automation**: file-driven inventory, remote fan-out, and secure credential use.
-- **Scales across environments**: designed for multiple hosts and easily parameterized for different targets.
-- **Operational maturity**: session lifecycle management, clear operator prompts, and actionable output.
-- **Adaptable**: small refactors unlock reporting, dashboards, and compliance checks.
 
 ---
 
